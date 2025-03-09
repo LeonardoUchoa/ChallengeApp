@@ -31,7 +31,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun QuoteApp() {
+fun ChallengApp() {
     val backgroundColor = Color(0xFFABB8A8) // Sage green background
     val cardColor = Color(0xFFD8C3B5) // Light beige for cards
 
@@ -251,8 +251,8 @@ private val cardColor = Color(0xFFD8C3B5) // Light beige
 
 @Preview(showBackground = true)
 @Composable
-fun QuoteAppPreview() {
+fun ChallengeAppPreview() {
     MaterialTheme {
-        QuoteApp()
+        ChallengApp()
     }
 }
